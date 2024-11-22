@@ -15,3 +15,5 @@ Run the development server for this Express app using the following command:
 ```bash
 npm start
 ```
+
+Open http://localhost:1338, you'll see the text "TODO" on your screen.
