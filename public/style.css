@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "./schedulerpro.stockholm.css";
 
 :root {
   font-family: Poppins, "Open Sans", Helvetica, Arial, sans-serif;
@@ -15,4 +16,17 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+#scheduler {
+  height: 100vh;
+  font-size: 14px;
+}
+
+.b-list-item {
+  padding: 0;
+}
+
+input[name="status"] {
+  text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 1);
 }
