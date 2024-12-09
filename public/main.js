@@ -84,6 +84,12 @@ const schedulerPro = new SchedulerPro({
                         }
                     }
                 },
+                notesTab : {
+                    tab : {
+                        text : 'Notes',
+                        icon : ''
+                    }
+                },
                 predecessorsTab : false,
                 successorsTab   : false,
                 advancedTab     : false
