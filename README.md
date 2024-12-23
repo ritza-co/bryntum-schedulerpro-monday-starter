@@ -1,6 +1,6 @@
-# How to connect and sync Bryntum Scheduler Pro to monday.com: starter repository
+# How to connect and sync Bryntum Scheduler Pro to monday.com: Starter repository
 
-The code for the complete app is on the "completed-app" branch.
+The code for the completed Express app is on the `completed-app` branch.
 
 ## Getting started
 
@@ -10,10 +10,10 @@ Install the dependencies:
 npm install
 ```
 
-Run the development server for this Express app using the following command:
+Run the development server:
 
 ```bash
 npm start
 ```
 
-Open http://localhost:1338, you'll see the text "TODO" on your screen.
+Open `http://localhost:1338`. You should see the text, `TODO`, displayed on your screen.
