@@ -42,7 +42,7 @@ app.get('/api/load', async(req, res) => {
                 }
             }`);
 
-        const bookingBoardItems = mondayAPIresponse.data.boards[1].items_page.items;
+        const bookingBoardItems = mondayAPIresponse.data.boards[0].items_page.items;
         let resourcesData = [];
         const eventsData = [];
         const assignmentsData = [];
